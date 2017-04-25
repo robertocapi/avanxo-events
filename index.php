@@ -1,4 +1,4 @@
 <?
-echo "hola";
+echo "Eventos avanxo";
 
 ?>
