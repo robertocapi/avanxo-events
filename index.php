@@ -13,7 +13,7 @@
 <div class="container">
   <h2>Listado de eventos</h2>
   <p>Aqui podra visualizar el listado de eventos por categoria de la empresa ABC.</p>
-  <table class="table">
+  <table class="table" id="myTable">
     <thead>
       <tr>
         <th onclick="sortTable(0)">Lugar</th>
