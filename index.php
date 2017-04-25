@@ -10,10 +10,9 @@
 </head>
 <body>
 
-n lugar, una dirección, una fecha de inicio y una fecha de fin, y si el evento es presencial o virtual.
 <div class="container">
-  <h2>Contextual Classes</h2>
-  <p>Contextual classes can be used to color table rows or table cells. The classes that can be used are: .active, .success, .info, .warning, and .danger.</p>
+  <h2>Listado de eventos</h2>
+  <p>Aqui podra visualizar el listado de eventos por categoria de la empresa ABC.</p>
   <table class="table">
     <thead>
       <tr>
