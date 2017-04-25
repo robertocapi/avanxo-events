@@ -21,7 +21,7 @@
         <table summary="This table shows how to create responsive tables using Bootstrap's default functionality" class="table table-bordered table-hover">
           <caption class="text-center">An example of a responsive table based on <a href="http://getbootstrap.com/css/#tables-responsive" target="_blank">Bootstrap</a>:</caption>
           <thead>
-            <tr>
+            <tr class="success">
               <th>Country</th>
               <th>Languages</th>
               <th>Population</th>
@@ -30,14 +30,14 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
+            <tr class="danger">
               <td>Argentina</td>
               <td>Spanish (official), English, Italian, German, French</td>
               <td>41,803,125</td>
               <td>31.3</td>
               <td>2,780,387</td>
             </tr>
-            <tr>
+            <tr class="info">
               <td>Australia</td>
               <td>English 79%, native and other languages</td>
               <td>23,630,169</td>
