@@ -14,21 +14,28 @@
  
 <body>
 
-<table data-toggle="table"
-    >
-    <thead>
-        <tr>
-            <th data-field="fruit" data-sortable="true">Item</th>
-            <th data-field="date"  data-sortable="true" data-sort-name="_date_data" data-sorter="monthSorter">Date</th>
-            <th data-field="type"  data-sortable="true">Type</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr><td>Pear  </td><td data-month="1">January</td> <td>Fruit</td></tr>
-        <tr><td>Carrot</td><td data-month="3">March</td>   <td>Vegetable</td></tr>
-        <tr><td>Apple </td><td data-month="2">February</td><td>Fruit</td></tr>
-    </tbody>
-</table>
+<table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Extn.</th>
+                <th>Start date</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Extn.</th>
+                <th>Start date</th>
+                <th>Salary</th>
+            </tr>
+        </tfoot>
+    </table>
             <script type="text/javascript" src="js/ordering.js"></script>  
 </body>
 </html>
