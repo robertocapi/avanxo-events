@@ -34,12 +34,12 @@
         <td>Defaultson</td>
         <td>def@somemail.com</td>
        <td> <button type="button" class="btn btn-default" aria-label="Left Align">
-  <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+  <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
 </button>
-
-<button type="button" class="btn btn-default btn-lg">
-  <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Star
-</button></td>
+<button type="button" class="btn btn-default" aria-label="Left Align">
+  <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+</button>
+</td>
       </tr>      
       <tr class="success">
         <td>Success</td>
@@ -48,6 +48,13 @@
           <td>Default</td>
         <td>Defaultson</td>
         <td>def@somemail.com</td>
+           <td> <button type="button" class="btn btn-default" aria-label="Left Align">
+  <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+</button>
+<button type="button" class="btn btn-default" aria-label="Left Align">
+  <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+</button>
+</td>
       </tr>
       <tr class="danger">
         <td>Danger</td>
@@ -56,6 +63,13 @@
           <td>Default</td>
         <td>Defaultson</td>
         <td>def@somemail.com</td>
+           <td> <button type="button" class="btn btn-default" aria-label="Left Align">
+  <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+</button>
+<button type="button" class="btn btn-default" aria-label="Left Align">
+  <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+</button>
+</td>
       </tr>
       <tr class="info">
         <td>Info</td>
@@ -64,6 +78,13 @@
           <td>Default</td>
         <td>Defaultson</td>
         <td>def@somemail.com</td>
+           <td> <button type="button" class="btn btn-default" aria-label="Left Align">
+  <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+</button>
+<button type="button" class="btn btn-default" aria-label="Left Align">
+  <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+</button>
+</td>
       </tr>
       <tr class="warning">
         <td>Warning</td>
@@ -72,6 +93,13 @@
           <td>Default</td>
         <td>Defaultson</td>
         <td>def@somemail.com</td>
+           <td> <button type="button" class="btn btn-default" aria-label="Left Align">
+  <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+</button>
+<button type="button" class="btn btn-default" aria-label="Left Align">
+  <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+</button>
+</td>
       </tr>
       <tr class="active">
         <td>Active</td>
@@ -80,6 +108,13 @@
           <td>Default</td>
         <td>Defaultson</td>
         <td>def@somemail.com</td>
+           <td> <button type="button" class="btn btn-default" aria-label="Left Align">
+  <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+</button>
+<button type="button" class="btn btn-default" aria-label="Left Align">
+  <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+</button>
+</td>
       </tr>
     </tbody>
   </table>
