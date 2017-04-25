@@ -29,8 +29,8 @@
       <tr>
         <td>Default</td>
         <td>Defaultson</td>
-        <td>def@somemail.com</td>
-          <td>Default</td>
+        <td>13/12/2017</td>
+          <td>07/12/2017</td>
         <td>Defaultson</td>
         <td>def@somemail.com</td>
        <td> <button type="button" class="btn btn-default" aria-label="Left Align">
@@ -44,8 +44,8 @@
       <tr class="success">
         <td>Success</td>
         <td>Doe</td>
-        <td>john@example.com</td>
-          <td>Default</td>
+      <td>13/12/2017</td>
+          <td>07/12/2017</td>
         <td>Defaultson</td>
         <td>def@somemail.com</td>
            <td> <button type="button" class="btn btn-default" aria-label="Left Align">
@@ -59,8 +59,8 @@
       <tr class="danger">
         <td>Danger</td>
         <td>Moe</td>
-        <td>mary@example.com</td>
-          <td>Default</td>
+       <td>13/09/2017</td>
+          <td>07/09/2017</td>
         <td>Defaultson</td>
         <td>def@somemail.com</td>
            <td> <button type="button" class="btn btn-default" aria-label="Left Align">
@@ -74,8 +74,8 @@
       <tr class="info">
         <td>Info</td>
         <td>Dooley</td>
-        <td>july@example.com</td>
-          <td>Default</td>
+        <td>13/11/2017</td>
+          <td>07/11/2017</td>
         <td>Defaultson</td>
         <td>def@somemail.com</td>
            <td> <button type="button" class="btn btn-default" aria-label="Left Align">
@@ -89,8 +89,8 @@
       <tr class="warning">
         <td>Warning</td>
         <td>Refs</td>
-        <td>bo@example.com</td>
-          <td>Default</td>
+      <td>13/10/2017</td>
+          <td>07/10/2017</td>
         <td>Defaultson</td>
         <td>def@somemail.com</td>
            <td> <button type="button" class="btn btn-default" aria-label="Left Align">
@@ -104,8 +104,8 @@
       <tr class="active">
         <td>Active</td>
         <td>Activeson</td>
-        <td>act@example.com</td>
-          <td>Default</td>
+      <td>13/06/2017</td>
+          <td>07/06/2017</td>
         <td>Defaultson</td>
         <td>def@somemail.com</td>
            <td> <button type="button" class="btn btn-default" aria-label="Left Align">
