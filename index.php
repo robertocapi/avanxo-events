@@ -10,15 +10,19 @@
 </head>
 <body>
 
+n lugar, una dirección, una fecha de inicio y una fecha de fin, y si el evento es presencial o virtual.
 <div class="container">
   <h2>Contextual Classes</h2>
   <p>Contextual classes can be used to color table rows or table cells. The classes that can be used are: .active, .success, .info, .warning, and .danger.</p>
   <table class="table">
     <thead>
       <tr>
-        <th>Firstname</th>
-        <th>Lastname</th>
-        <th>Email</th>
+        <th>Lugar</th>
+        <th>Dirrección</th>
+        <th>fecha de inicio</th>
+         <th>fecha de fin</th>
+              <th>tipo</th>
+              <th>Categoria</th>
       </tr>
     </thead>
     <tbody>
@@ -26,31 +30,49 @@
         <td>Default</td>
         <td>Defaultson</td>
         <td>def@somemail.com</td>
+          <td>Default</td>
+        <td>Defaultson</td>
+        <td>def@somemail.com</td>
       </tr>      
       <tr class="success">
         <td>Success</td>
         <td>Doe</td>
         <td>john@example.com</td>
+          <td>Default</td>
+        <td>Defaultson</td>
+        <td>def@somemail.com</td>
       </tr>
       <tr class="danger">
         <td>Danger</td>
         <td>Moe</td>
         <td>mary@example.com</td>
+          <td>Default</td>
+        <td>Defaultson</td>
+        <td>def@somemail.com</td>
       </tr>
       <tr class="info">
         <td>Info</td>
         <td>Dooley</td>
         <td>july@example.com</td>
+          <td>Default</td>
+        <td>Defaultson</td>
+        <td>def@somemail.com</td>
       </tr>
       <tr class="warning">
         <td>Warning</td>
         <td>Refs</td>
         <td>bo@example.com</td>
+          <td>Default</td>
+        <td>Defaultson</td>
+        <td>def@somemail.com</td>
       </tr>
       <tr class="active">
         <td>Active</td>
         <td>Activeson</td>
         <td>act@example.com</td>
+          <td>Default</td>
+        <td>Defaultson</td>
+        <td>def@somemail.com</td>
       </tr>
     </tbody>
   </table>
