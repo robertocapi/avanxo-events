@@ -27,12 +27,12 @@
     </thead>
     <tbody>
       <tr>
-        <td>Default</td>
-        <td>Defaultson</td>
+        <td>Puebla</td>
+        <td>Avenida</td>
         <td>13/12/2017</td>
           <td>07/12/2017</td>
-        <td>Defaultson</td>
-        <td>def@somemail.com</td>
+        <td>Presencial</td>
+        <td>Conferencia</td>
        <td> <button type="button" class="btn btn-default" aria-label="Left Align">
   <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
 </button>
@@ -42,12 +42,12 @@
 </td>
       </tr>      
       <tr class="success">
-        <td>Success</td>
+        <td>Ciudad de México</td>
         <td>Doe</td>
       <td>13/12/2017</td>
           <td>07/12/2017</td>
-        <td>Defaultson</td>
-        <td>def@somemail.com</td>
+         <td>Presencial</td>
+        <td>Seminario</td>
            <td> <button type="button" class="btn btn-default" aria-label="Left Align">
   <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
 </button>
@@ -57,12 +57,12 @@
 </td>
       </tr>
       <tr class="danger">
-        <td>Danger</td>
+        <td>Puebla</td>
         <td>Moe</td>
        <td>13/09/2017</td>
           <td>07/09/2017</td>
-        <td>Defaultson</td>
-        <td>def@somemail.com</td>
+        <td>Presencial</td>
+        <td>Conferencia</td>
            <td> <button type="button" class="btn btn-default" aria-label="Left Align">
   <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
 </button>
@@ -72,12 +72,12 @@
 </td>
       </tr>
       <tr class="info">
-        <td>Info</td>
+        <td>Universidad del Valle</td>
         <td>Dooley</td>
         <td>13/11/2017</td>
           <td>07/11/2017</td>
-        <td>Defaultson</td>
-        <td>def@somemail.com</td>
+         <td>Virtual</td>
+        <td>Conferencia</td>
            <td> <button type="button" class="btn btn-default" aria-label="Left Align">
   <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
 </button>
@@ -87,12 +87,12 @@
 </td>
       </tr>
       <tr class="warning">
-        <td>Warning</td>
+        <td>Centro Historico</td>
         <td>Refs</td>
       <td>13/10/2017</td>
           <td>07/10/2017</td>
-        <td>Defaultson</td>
-        <td>def@somemail.com</td>
+       <td>Presencial</td>
+        <td>Curso</td>
            <td> <button type="button" class="btn btn-default" aria-label="Left Align">
   <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
 </button>
@@ -106,8 +106,8 @@
         <td>Activeson</td>
       <td>13/06/2017</td>
           <td>07/06/2017</td>
-        <td>Defaultson</td>
-        <td>def@somemail.com</td>
+       <td>Virtual</td>
+        <td>Congreso</td>
            <td> <button type="button" class="btn btn-default" aria-label="Left Align">
   <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
 </button>
