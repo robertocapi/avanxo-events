@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>Ejemplo de estilos CSS en un archivo externo</title>
+<title>Eventos de la empreas ABC</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -14,76 +14,76 @@
  
 <body>
 
-<div class="container">
-  <div class="row">
-    <div class="col-xs-12">
-      <div class="table-responsive">
-        <table summary="This table shows how to create responsive tables using Bootstrap's default functionality" class="table table-bordered table-hover">
-          <caption class="text-center">An example of a responsive table based on <a href="http://getbootstrap.com/css/#tables-responsive" target="_blank">Bootstrap</a>:</caption>
-          <thead>
-            <tr class="success">
-              <th>Country</th>
-              <th>Languages</th>
-              <th>Population</th>
-              <th>Median Age</th>
-              <th>Area (Km²)</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr class="danger">
-              <td>Argentina</td>
-              <td>Spanish (official), English, Italian, German, French</td>
-              <td>41,803,125</td>
-              <td>31.3</td>
-              <td>2,780,387</td>
-            </tr>
-            <tr class="info">
-              <td>Australia</td>
-              <td>English 79%, native and other languages</td>
-              <td>23,630,169</td>
-              <td>37.3</td>
-              <td>7,739,983</td>
-            </tr>
-            <tr>
-              <td>Greece</td>
-              <td>Greek 99% (official), English, French</td>
-              <td>11,128,404</td>
-              <td>43.2</td>
-              <td>131,956</td>
-            </tr>
-            <tr>
-              <td>Luxembourg</td>
-              <td>Luxermbourgish (national) French, German (both administrative)</td>
-              <td>536,761</td>
-              <td>39.1</td>
-              <td>2,586</td>
-            </tr>
-            <tr>
-              <td>Russia</td>
-              <td>Russian, others</td>
-              <td>142,467,651</td>
-              <td>38.4</td>
-              <td>17,076,310</td>
-            </tr>
-            <tr>
-              <td>Sweden</td>
-              <td>Swedish, small Sami- and Finnish-speaking minorities</td>
-              <td>9,631,261</td>
-              <td>41.1</td>
-              <td>449,954</td>
-            </tr>
-          </tbody>
-          <tfoot>
-            <tr>
-              <td colspan="5" class="text-center">Data retrieved from <a href="http://www.infoplease.com/ipa/A0855611.html" target="_blank">infoplease</a> and <a href="http://www.worldometers.info/world-population/population-by-country/" target="_blank">worldometers</a>.</td>
-            </tr>
-          </tfoot>
-        </table>
-      </div><!--end of .table-responsive-->
-    </div>
-  </div>
-</div>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
 
-<p class="p">Demo by George Martsoukos. <a href="http://www.sitepoint.com/responsive-data-tables-comprehensive-list-solutions" target="_blank">See article</a>.</p>
+<div class="container">
+    <div class="row">
+    
+    <p></p>
+    <h1>Bootstrap Table Panel with Pagination</h1>
+    <p>A simple example of how-to put a bordered table within a panel. Responsive, place holders in header/footer for buttons or pagination.</p>
+    <p>Follow me <a href="https://twitter.com/asked_io" target="_new">@asked_io</a> & <a href="https://asked.io/" target="_new">asked.io</a>.</p>
+    <p> </p><p> </p>
+    
+        <div class="col-md-10 col-md-offset-1">
+
+            <div class="panel panel-default panel-table">
+              <div class="panel-heading">
+                <div class="row">
+                  <div class="col col-xs-6">
+                    <h3 class="panel-title">Panel Heading</h3>
+                  </div>
+                  <div class="col col-xs-6 text-right">
+                    <button type="button" class="btn btn-sm btn-primary btn-create">Create New</button>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-body">
+                <table class="table table-striped table-bordered table-list">
+                  <thead>
+                    <tr>
+                        <th><em class="fa fa-cog"></em></th>
+                        <th class="hidden-xs">ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                    </tr> 
+                  </thead>
+                  <tbody>
+                          <tr>
+                            <td align="center">
+                              <a class="btn btn-default"><em class="fa fa-pencil"></em></a>
+                              <a class="btn btn-danger"><em class="fa fa-trash"></em></a>
+                            </td>
+                            <td class="hidden-xs">1</td>
+                            <td>John Doe</td>
+                            <td>johndoe@example.com</td>
+                          </tr>
+                        </tbody>
+                </table>
+            
+              </div>
+              <div class="panel-footer">
+                <div class="row">
+                  <div class="col col-xs-4">Page 1 of 5
+                  </div>
+                  <div class="col col-xs-8">
+                    <ul class="pagination hidden-xs pull-right">
+                      <li><a href="#">1</a></li>
+                      <li><a href="#">2</a></li>
+                      <li><a href="#">3</a></li>
+                      <li><a href="#">4</a></li>
+                      <li><a href="#">5</a></li>
+                    </ul>
+                    <ul class="pagination visible-xs pull-right">
+                        <li><a href="#">«</a></li>
+                        <li><a href="#">»</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+</div></div></div>
+          
 </body>
 </html>
