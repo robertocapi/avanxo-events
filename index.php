@@ -16,13 +16,13 @@
   <table class="table" id="myTable">
     <thead>
       <tr>
-        <th onclick="sortTable(0)">Lugar</th>
-        <th onclick="sortTable(1)">Dirección</th>
-        <th>fecha de inicio</th>
-         <th>fecha de fin</th>
-              <th>tipo</th>
-              <th>Categoria</th>
-              <th>Action</th>
+        <th onclick="sortTable(1)">Lugar</th>
+        <th >Dirección</th>
+        <th onclick="sortTable(0)">fecha de inicio</th>
+         <th onclick="sortTable(1)">fecha de fin</th>
+              <th onclick="sortTable(1)">tipo</th>
+              <th onclick="sortTable(1)">Categoria</th>
+              <th onclick="sortTable(1)">Action</th>
       </tr>
     </thead>
     <tbody>
