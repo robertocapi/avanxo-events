@@ -17,11 +17,12 @@
     <thead>
       <tr>
         <th>Lugar</th>
-        <th>Dirrección</th>
+        <th>Dirección</th>
         <th>fecha de inicio</th>
          <th>fecha de fin</th>
               <th>tipo</th>
               <th>Categoria</th>
+              <th>Action</th>
       </tr>
     </thead>
     <tbody>
@@ -32,6 +33,13 @@
           <td>Default</td>
         <td>Defaultson</td>
         <td>def@somemail.com</td>
+       <td> <button type="button" class="btn btn-default" aria-label="Left Align">
+  <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+</button>
+
+<button type="button" class="btn btn-default btn-lg">
+  <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Star
+</button></td>
       </tr>      
       <tr class="success">
         <td>Success</td>
